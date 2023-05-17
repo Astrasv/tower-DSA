@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stack Visuvalizer</title>
+</head>
+<body>
+    <h1 id="main_head">Stack Implementation</h1>
+    <section class="main">
+        <div class="events">
+            <div class="sub_event" id="push">
+                <h1 class="event_content">Item<span class="pushed_item"></span> is <br><span class="event_name">Pushed</span></h1>
+            </div>
+            <div class="sub_event" id="pop">
+                <h1 class="event_content">Item <span class="popped_item"></span> is <br><span class="event_name">Popped</span></h1>
+            </div>
+            <div class="sub_event" id="pointer">
+                <h1 class="event_content">Stack <span class="event_name">pointer</span><br> is at <span class="pointer_item"></span></h1>
+            </div>
+            <div class="sub_event" id="top">
+                <h1 class="event_content"><span class="event_name">Top</span><br> element is <span class="top_item"></span></h1>
+            </div>
+        </div>
+        <div class="stack">
+            <ul>
+                <li class="elem" style="--i:11;--clr:#ffffff"><a href="#" id="elem11"><span>10</span>None</a></li>
+                <li class="elem" style="--i:10;--clr:#ffffff"><a href="#" id="elem10"><span>9</span>None</a></li>
+                <li class="elem" style="--i:9;--clr:#ffffff"><a href="#" id="elem9"><span>8</span>None</a></li>
+                <li class="elem" style="--i:8;--clr:#ffffff"><a href="#" id="elem8"><span>7</span>None</a></li>
+                <li class="elem" style="--i:7;--clr:#ffffff"><a href="#" id="elem7"><span>6</span>None</a></li>
+                <li class="elem" style="--i:6;--clr:#ffffff"><a href="#" id="elem6"><span>5</span>None</a></li>
+                <li class="elem" style="--i:5;--clr:#ffffff"><a href="#" id="elem5"><span>4</span>None</a></li>
+                <li class="elem" style="--i:4;--clr:#ffffff"><a href="#" id="elem4"><span>3</span>None</a></li>
+                <li class="elem" style="--i:3;--clr:#ffffff"><a href="#" id="elem3"><span>2</span>None</a></li>
+                <li class="elem" style="--i:2;--clr:#ffffff"><a href="#" id="elem2"><span>1</span>None</a></li>
+                <li class="elem" style="--i:1;--clr:#ffffff"><a href="#" id="elem1"><span>0</span>None</a></li>
+            </ul>
+        </div>
+        <div class="operations">
+            <a onclick="" id="pushsub">Push</a> <input>
+            <a onclick="" id="popsub">Pop</a>
+            <a onclick="" id="peeksub">Peek</a> 
+        </div>
+    </section>
+
+</body>
+<script src="stack.js"></script>
+</html>
