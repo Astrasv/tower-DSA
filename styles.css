@@ -73,7 +73,7 @@ section{
     border: 3.2rem;
     padding:1rem;
     font-size: 2rem;
-    text-align: center;;
+    text-align: center;
     transition: 200ms ease;
 }
 
@@ -110,7 +110,7 @@ ul li{
 
 ul li:hover{
     transform: translateX(-50px);
-    background: var(--clr);
+    background: var(--accent-color);
 }
 
 ul li:before{
